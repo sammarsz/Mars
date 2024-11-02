@@ -1,0 +1,64 @@
+/*Sevices styles*/
+.services {
+  margin-left: 20px;
+  padding-top: 5rem;
+}
+.services-heading{
+  font-size: 50px;
+}
+.card-settings{
+ display: grid;
+ place-items: center;
+}
+.services-card {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  border: none;
+  position: relative;
+  width: 90%;
+  min-height: 30vh;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px 0px #34c759;
+}
+.services-card:hover {
+  width: 92%
+}
+.service-description{
+  display: grid;
+  grid-template-rows: 1fr 3fr 2fr;
+  height: 100%;
+  place-items: center;
+  margin: 0 3%;
+}
+.service-image {
+  height: 100%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.services-card-inverse{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  border:none;
+  position: relative;
+  width: 85%;
+  min-height: 30vh;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px 0px #34c759;
+}
+.services-card-inverse:hover{
+  width: 87%
+}
+.service-image-inverse {
+  height: 100%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.service-description-inverse{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100%;
+  place-items: center;
+  margin: 0 3%;
+}

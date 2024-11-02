@@ -1,0 +1,41 @@
+.blog {
+  background-image: linear-gradient(to right,   #f7f7f7,  #32cd32);
+  padding-bottom: 20px;
+  padding-top : 5rem
+}
+
+.about-blog {
+  margin: 20px 20px 0 20px;
+  font-size: 45px;
+}
+.intro-blog {
+  margin: 0px 30px 10px 20px;
+}
+.minor-headings {
+  margin: 8px 0 5px 0;
+}
+.blog li , p, a {
+  margin: 0px 0px 5px;
+  color: rgb(21, 19, 19);
+}
+.blog a {
+  text-decoration: underline;
+}
+.how-it-works {
+background-image: linear-gradient(to left,  #32cd3287,#34c75980);
+margin: 20px;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 10px 10px  #32cd32;
+color: #f7f7f7;
+padding-top: 5rem;
+}
+.how-it-works h2 {
+  margin-bottom: 5px;
+}
+.how-it-works p {
+  color: #f7f7f7;
+}
+.how-it-works li , ol{
+  margin-bottom: 3px;
+}

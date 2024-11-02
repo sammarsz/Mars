@@ -1,0 +1,36 @@
+div {
+  display: inline-block;
+}
+
+body {
+  position: relative;
+  padding-top: 6rem;
+  scroll-behaviour: smooth;
+  font-family: comic sans ms;
+}
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+a:hover{
+  font-weight: bold;
+}
+.support{
+  position: fixed;
+  background-image: linear-gradient(to right, #e1e1e1, #32cd32);
+  color: darkblue;
+  z-index: 2;
+  height: px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  right: 2px;
+  top:50%;
+}
+.support:hover {
+  padding: 7px 12px;
+}
+.support-image {
+  width : 20px;
+  margin-top: px;
+}
